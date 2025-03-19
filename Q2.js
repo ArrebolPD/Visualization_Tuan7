@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
         console.error("Dữ liệu chưa được load hoặc rỗng!");
         return;
     }
-
     console.log("Dữ liệu đã load:", window.data);
 
     const margin = { top: 40, right: 40, bottom: 50, left: 50 },
